@@ -26,6 +26,7 @@
 		23A38EBD2451FBAD00E5D57A /* ServiceManagement.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A38EBC2451FBAD00E5D57A /* ServiceManagement.framework */; };
 		23A38EC12451FC5500E5D57A /* WeatherLauncher.app in CopyFiles */ = {isa = PBXBuildFile; fileRef = 23A38E9C2451FB5D00E5D57A /* WeatherLauncher.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		23A38EC22451FC6200E5D57A /* WeatherLauncher.app in Frameworks */ = {isa = PBXBuildFile; fileRef = 23A38E9C2451FB5D00E5D57A /* WeatherLauncher.app */; };
+		23A38EC42451FF7400E5D57A /* CurrentConditionsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23A38EC32451FF7400E5D57A /* CurrentConditionsDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -64,6 +65,7 @@
 		23A38EB12451FB8800E5D57A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = ../../../../.Trash/Main.storyboard; sourceTree = "<group>"; };
 		23A38EB22451FB8A00E5D57A /* WeatherLauncher.entitlements */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.entitlements; path = WeatherLauncher.entitlements; sourceTree = "<group>"; };
 		23A38EBC2451FBAD00E5D57A /* ServiceManagement.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ServiceManagement.framework; path = System/Library/Frameworks/ServiceManagement.framework; sourceTree = SDKROOT; };
+		23A38EC32451FF7400E5D57A /* CurrentConditionsDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentConditionsDataSource.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -116,6 +118,7 @@
 				23A38E8C2451FAE300E5D57A /* Weather.swift */,
 				23A38E902451FAE400E5D57A /* WeatherData.swift */,
 				23A38E8F2451FAE400E5D57A /* WeatherViewModel.swift */,
+				23A38EC32451FF7400E5D57A /* CurrentConditionsDataSource.swift */,
 				2306BA8C241A97C9001E6D98 /* Assets.xcassets */,
 				2306BA8E241A97C9001E6D98 /* Main.storyboard */,
 				2306BA91241A97C9001E6D98 /* Info.plist */,
@@ -252,6 +255,7 @@
 			files = (
 				23A38E912451FAE400E5D57A /* Weather.swift in Sources */,
 				2306BA8B241A97C1001E6D98 /* ViewController.swift in Sources */,
+				23A38EC42451FF7400E5D57A /* CurrentConditionsDataSource.swift in Sources */,
 				23A38E932451FAE400E5D57A /* DarkSkyError.swift in Sources */,
 				23A38E942451FAE400E5D57A /* WeatherViewModel.swift in Sources */,
 				23A38E922451FAE400E5D57A /* Location.swift in Sources */,
